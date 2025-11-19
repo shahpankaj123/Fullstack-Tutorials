@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pankaj Sah - Introduction Page</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+      background: #f5f5f5;
+    }
+
+    /* Header / Top Section */
+    #top {
+      background-color: #0084ff;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h2 {
+      color: #0084ff;
+    }
+
+    .section {
+      max-width: 850px;
+      background: white;
+      margin: 30px auto;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    }
+
+    .signup-btn {
+      display: block;
+      margin: 60px auto;
+      padding: 15px 40px;
+      background-color: #0084ff;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    .signup-btn:hover {
+      opacity: 0.9;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Top of Page -->
+  <div id="top">
+    <h1>Welcome to My Personal Introduction Page</h1>
+    <p>Scroll to explore more about me</p>
+  </div>
+
+  <!-- About Me Section -->
+  <div class="section">
+    <h2>About Me</h2>
+    <p>
+      Hi! I am <strong>Pankaj Sah</strong>, a passionate Backend Developer with strong expertise in 
+      <strong>Python, Django, MySQL, Spring Boot, REST APIs</strong>, and modern web development.
+      I enjoy building scalable systems that solve real-world problems.
+    </p>
+
+    <p>
+      I have developed booking systems, e-commerce platforms, recommendation systems, dashboards, 
+      and automation tools. I always focus on clean architecture, optimized queries, and 
+      performance-driven backend logic.
+    </p>
+
+    <p>
+      I believe in learning continuously and improving myself daily. I enjoy challenges that
+      push me to grow.
+    </p>
+  </div>
+
+  <!-- Skills Section -->
+  <div class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python, Django, DRF</li>
+      <li>Java, Spring Boot</li>
+      <li>MySQL, PostgreSQL</li>
+      <li>Redis, Celery</li>
+      <li>React & Next.js (Basics)</li>
+      <li>Recommendation Systems (Machine Learning) ,RAG ChatBot etc</li>
+      <li>REST API Architectures</li>
+      <li>Web Scraping & Automation</li>
+    </ul>
+  </div>
+
+  <!-- Experience Section -->
+  <div class="section">
+    <h2>Experience</h2>
+
+    <h3>Python Backend Developer – Avarthan Innovations</h3>
+    <p>March 2024 – Present</p>
+    <p>
+      Working on backend APIs, optimization, authentication systems, scheduling tasks,
+      and building advanced dashboards and logic-driven backend modules.
+    </p>
+
+    <h3>Backend Developer (Part time) – Warpshuttle</h3>
+    <p>2024 – Present</p>
+
+    <h3>Django Intern – NyxusByte Tech</h3>
+    <p>Received Intern of the Month</p>
+  </div>
+
+  <!-- Projects Section -->
+  <div class="section">
+    <h2>Projects</h2>
+
+    <h3>Personalized News Recommendation System</h3>
+    <p>
+      Built with Django, DRF, Redis, Celery, MySQL, and React.  
+      Sends personalized news to users every week and offers full admin dashboard.
+    </p>
+
+    <h3>Sports Venue Booking System</h3>
+    <p>
+      Full booking logic, availability management, OTP verification, payments tracking, 
+      and user role management.
+    </p>
+
+    <h3>E-commerce Website</h3>
+    <p>
+      Django + React based system with product management, admin panel, and multiple image uploads.
+    </p>
+
+    <h3>Price Tracking System</h3>
+    <p>
+      Web scraping system that checks Amazon prices and sends alerts.
+    </p>
+  </div>
+
+  <!-- Education Section -->
+  <div class="section">
+    <h2>Education</h2>
+    <p><strong>Nepal College of Information Technology</strong></p>
+    <p>Bachelor in Engineering in Information Technology</p>
+    <p>CGPA : 3.72</p>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="section">
+    <h2>Contact</h2>
+    <p>Email: pshah9360@gmail.com</p>
+    <p>Phone: +977 9804016025</p>
+    <p>Location: Biratnagar, Nepal</p>
+  </div>
+
+  <!-- Big Sign Up Button -->
+  <button class="signup-btn" id="signupBtn">Up</button>
+
+  <script>
+    const signupBtn = document.getElementById("signupBtn");
+
+    // Scroll to top when Sign Up is clicked
+    signupBtn.addEventListener("click", () => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    });
+  </script>
+
+</body>
+</html>
+
